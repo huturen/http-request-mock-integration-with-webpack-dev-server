@@ -8,16 +8,13 @@ module.exports = defineConfig({
 
     // for webpack 3
     // before() {
-    //   httpRequestMockMiddleware(app);
+    //   httpRequestMockMiddleware(...);
     // }
     //
 
     // Prior to webpack v4.7.0
     // onBeforeSetupMiddleware(devServer) {
-    //   httpRequestMockMiddleware({
-    //     mockDir: path.resolve(__dirname, 'mock'),
-    //     app: devServer.app
-    //   });
+    //   httpRequestMockMiddleware(...);
     // },
 
     // As of webpack v4.7.0
