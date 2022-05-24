@@ -7,14 +7,21 @@ module.exports = defineConfig({
     port: 8080,
 
     // for webpack 3
-    // before() {
-    //   httpRequestMockMiddleware(...);
+    // before(app) {
+    //   httpRequestMockMiddleware({
+    //     mockDir: path.resolve(__dirname, 'mock'),
+    //     app,
+    //     index: 'http-request-mock.pure.js'
+    //   });
     // }
-    //
 
     // Prior to webpack v4.7.0
     // onBeforeSetupMiddleware(devServer) {
-    //   httpRequestMockMiddleware(...);
+    //   httpRequestMockMiddleware({
+    //     mockDir: path.resolve(__dirname, 'mock'),
+    //     app: devServer.app,
+    //     index: 'http-request-mock.pure.js'
+    //   });
     // },
 
     // As of webpack v4.7.0
