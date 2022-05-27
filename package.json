@@ -15,7 +15,7 @@
     "@types/highlight.js": "^10.1.0",
     "axios": "^0.21.1",
     "core-js": "^3.8.3",
-    "http-request-mock": "^1.7.9",
+    "http-request-mock": "^1.7.17",
     "vue": "^3.2.13"
   },
   "devDependencies": {
